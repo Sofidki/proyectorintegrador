@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    height: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(177, 252, 102);
+}
+
+header div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav_li_a  {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.nav_li {
+    list-style: none; 
+    margin-right: 1rem;
+}
+
+.nav_ul {
+    display: flex;
+}
+
+.nav_logo {
+    display: flex;
+}
+
+.logo_img {
+    display: flex;
+    height: 75px;
+}
+.section_encabezado {
+    align-items: center;
+    display: block;
+    padding: 2rem;
+}
+.section_encabezado h1 {
+    text-align: center;
+    font-family: monospace;
+}
+.section_encabezado div {
+    text-align: center;
+}
+
+
+.section_producto {
+    display: flex;
+    justify-content: center;
+}
+
+.div_producto {
+    display: flex;
+    border: none;
+}
+
+.producto_li {
+    list-style: none;
+    display: flex;
+    width: auto;
+}
+
+.producto_img {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.section_nosotros h2 {
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+}
+
+.section_nosotros p {
+    align-items: center;
+    display: block;
+    padding: 2rem;
+}
+
+.section_nosotros_elegirnos {
+    display: flex;
+    flex-direction: column;
+}
+
+.section_nosotros_items {
+    display: flex;
+    flex-direction: column;
+}
+
+.section_nosotros h4 {
+    font-family: monospace;
+    padding: 2rem;
+}
+
+footer {
+    display: flex;
+    height: 150px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(177, 252, 102);
+}
+
+.footer_img {
+    display: flex;
+    height: 75px;
+    justify-content: right;
+}
+
+.footer_div {
+    display: flex;
+    text-align: left;
+}
+
+.footer_div p {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.footer_div h4 {
+    font-family: monospace;
+}
