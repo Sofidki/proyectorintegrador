@@ -52,6 +52,11 @@ header div {
     text-align: center;
 }
 
+.section_encabezado_mark {
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(177, 252, 102, 0.719);
+}
 
 .section_producto {
     display: flex;
@@ -82,6 +87,7 @@ header div {
     display: flex;
     justify-content: center;
     font-family: monospace;
+    background-color: rgb(177, 252, 102);
 }
 
 .section_nosotros p {
